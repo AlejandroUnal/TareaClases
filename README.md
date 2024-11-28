@@ -3,6 +3,7 @@
 Integrante:    Alejandro Serna Collazos
 
 Salida del codigo:
+
 ![image](https://github.com/user-attachments/assets/f8b17a24-2099-4593-9663-242e55de66c7)
 ![image](https://github.com/user-attachments/assets/e10db6d6-d598-418b-9b5f-0414b9ed5771)
 ![image](https://github.com/user-attachments/assets/16badc5b-c5d8-448e-8869-83b636f61f3f)
