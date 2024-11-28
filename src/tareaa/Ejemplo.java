@@ -41,7 +41,7 @@ public class Ejemplo {
                     // Realizar consignación
                     System.out.print("Ingrese el monto a consignar: ");
                     int montoConsignacion = scanner.nextInt();
-                    scanner.nextLine(); // Limpiar el buffer
+                    scanner.nextLine();
                     boolean consignacionExitosa = cuenta.consignacion(montoConsignacion);
                     if (consignacionExitosa) {
                         System.out.println("Consignacion realizada con exito.");
@@ -61,7 +61,7 @@ public class Ejemplo {
                     System.out.println("4. Oficina otro banco");
 
                     int tipoCajeroSeleccionado = scanner.nextInt();
-                    scanner.nextLine(); // Limpiar el buffer
+                    scanner.nextLine();
 
                     // Determinar el tipo de cajero seleccionado
                     String tipoCajero = "";
@@ -91,7 +91,7 @@ public class Ejemplo {
                     String nombreBeneficiario = scanner.nextLine();
                     System.out.print("Ingrese el saldo inicial de la cuenta del beneficiario: ");
                     int saldoBeneficiario = scanner.nextInt();
-                    System.out.print("¿Es una transferencia interbancaria? (true/false): ");
+                    System.out.print("Es una transferencia interbancaria? (true/false): ");
                     boolean esInterbancaria = scanner.nextBoolean();
                     scanner.nextLine(); 
                     
@@ -103,7 +103,7 @@ public class Ejemplo {
                     int montoTransferencia = scanner.nextInt();
                     boolean transferenciaExitosa = cuenta.transferencia(montoTransferencia, cuentaBeneficiario, esInterbancaria);
                     if (transferenciaExitosa) {
-                        System.out.println("Transferencia realizada con éxito.");
+                        System.out.println("Transferencia realizada con exito.");
                         System.out.println("Saldo de la cuenta de " + cliente.getNombre() + ": " + cuenta.getSaldo());
                         System.out.println("Saldo de la cuenta de " + beneficiario.getNombre() + ": " + cuentaBeneficiario.getSaldo());
                     } else {
@@ -114,11 +114,11 @@ public class Ejemplo {
                 case 5:
                     // Salir
                     salir = true;
-                    System.out.println("¡Gracias por utilizar el sistema bancario!");
+                    System.out.println("Gracias por utilizar el sistema bancario!");
                     break;
 
                 default:
-                    System.out.println("Opción no válida. Intente de nuevo.");
+                    System.out.println("Opcion no valida. Intente de nuevo.");
             }
         }
     }

@@ -1,5 +1,5 @@
 //Autor:    Alejandro Serna Collazos
-//Abstract: 
+//Abstract: Informacion de el/los clientes
 
 package tareaa;
 
